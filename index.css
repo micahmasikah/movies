@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+fieldset {
+    border-width: 0;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset > label, fieldset > input, fieldset > button {
+    width: 95%;
+    font-size: 14px;
+}
+
+fieldset > label {
+    margin-bottom: 7px;
+}
+
+fieldset > input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid blue;
+}
+
+#saveBtn {
+    text-align: center !important;
+}
